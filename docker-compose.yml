@@ -2,7 +2,7 @@ version: '2.3'
 
 services:
   bluespice:
-    image: 'knsit/bluespice:latest'
+    image: 'derflo/bluespice:latest'
     volumes:
       - ./data/config:/config
       - ./data/extensions:/extensions
